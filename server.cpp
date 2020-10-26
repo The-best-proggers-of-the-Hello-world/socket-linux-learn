@@ -87,6 +87,7 @@ int main()
                     f.write(v[i].c_str(), v[i].size());
                     f.write(" ", 1);
                 }
+                f.write("\n", 1);
                 f.close();
             }
         }
