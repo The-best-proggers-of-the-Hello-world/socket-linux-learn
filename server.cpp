@@ -5,7 +5,8 @@
 #include <arpa/inet.h>
 #elif _WIN32
 #include <winsock2.h>
-#include < ws2tcpip.h >
+#include <ws2tcpip.h>
+#else
 #endif
 #include <boost/algorithm/string.hpp>
 #include <iostream>
